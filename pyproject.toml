@@ -1,0 +1,11 @@
+[project]
+name = "n8n_test_fastapi_v2"
+version = "0.1.0"
+description = "Test workflow n8n per creazione di template"
+authors = ["alice-dev <alice@example.com>"]
+requires-python = ">=3.11"
+
+[project.dependencies]
+fastapi = "^0.115.0"
+uvicorn = {extras = ["standard"], version = "^0.30.0"}
+
